@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+
+    <meta charset="utf-8">
+    <title>Online Market</title>
+    <style media="screen">
+
+      * {
+        font-family: Arial;
+      }
+
+      body {
+        color: #0000FF;
+        background-color: #E6E6FA;
+        border: 1px solid black;
+      }
+
+      h1 {
+        color: #FFFFFF;
+        background-color: #0000FF;
+        font-family: Times New Roman;
+        border: 5px dashed blue;
+      }
+
+      h2 {
+        border: 3px dashed blue;
+      }
+
+      p {
+        color: red;
+      }
+
+      .classforContact{
+        color: #291970;
+      }
+
+      table {
+        border-collapse: collapse;
+        border: 2px solid red;
+        letter-spacing: 1px;
+        font-size: 0.8rem;
+      }
+
+      td, th {
+        color: black;
+        padding: 10px 20px;
+        border: 2px solid red;
+        padding: 10px 20px;
+      }
+
+      th {
+        background-color: #FFCCFF;
+      }
+
+      td {
+        text-allign: center;
+      }
+
+      tr: nth-child(even) td {
+        background-color: #291970;
+      }
+
+      #IDselector {
+
+
+      }
+
+    </style>
+
+    <h1 align="center">Online Market</h1>
+
+
+  </head>
+
+  <body>
+
+    <a href="#">Home</a>
+
+    <a href="#">Contact</a>
+
+    <br>
+    <br>
+
+    <h2>New Product Details</h2>
+    <br>
+
+    <p>
+
+      <table>
+        <th rowspan="0">Product</th>
+        <tr>
+          <th>Name</th>
+          <td>x1</td>
+          <td>x2</td>
+          <td>x3</td>
+          <td>x4</td>
+        </tr>
+        <tr>
+          <th>Price</th>
+          <td>3.00</td>
+          <td>5.00</td>
+          <td>7.00</td>
+          <td>9.00</td>
+        </tr>
+        <tr>
+          <th>Quantity</th>
+          <td>5</td>
+          <td>7</td>
+          <td>3</td>
+          <td>4</td>
+        </tr>
+      </table>
+
+    </p>
+
+
+    <p>To order product online, please submit form below</p>
+
+    <p><form>
+    <fieldset>
+      <label>Choose a Color</label>
+      <input type="color" name="Color" required><br><br>
+      <label>choose Number between 1 and 50: </label>
+
+      <input type="number" max="50" min= "1" required>
+      <br><br>
+      <br><br>
+
+    <fieldset>
+      <legend>What is your favorite subject?</legend>
+      <input type="radio" checked id="Math" name="meal">
+      <label>Math</label>
+      <input type="radio" checked id="Science" name="meal">
+      <label>Science</label>
+      <input type="radio" checked id="IT" name="meal">
+      <label>Biology</label>
+    </fieldset>
+
+    <br>
+    <br>
+    <br>
+
+    <select id="simple" name="simple">
+    <option selected>Favorite Color</option>
+    <option>Red</option>
+    <option>Green</option>
+    <option>Blue</option>
+    </select>
+
+    <br>
+    <br>
+    <br>
+
+    <button type="submit" name="button">Submit</button>
+    <button type="reset" name="button">Reset</button>
+
+    </fieldset>
+  </form></p>
+
+  </body>
+
+</html>
